@@ -597,6 +597,9 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     justify-content: space-between;
 }
 
+.send-btn {
+    fill: #fff;
+}
 
 
 .backdrop {
@@ -755,4 +758,28 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border-radius: 2px;
     fill: #f4f4fd;
     border: 1px solid #404bbf;
+}
+
+.modal-btn {
+    display: block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-accept {
+    margin-top: 20px;
 }
