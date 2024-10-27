@@ -679,9 +679,12 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover .but-close
+.modal-close:hover .but-close {
+    fill: #ffffff;
+}
+
 .modal-close:focus .but-close {
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-tittle {
@@ -712,7 +715,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .modal-input:focus + .modal-icon {
-    fill: #4d5ae5;;
+    fill: #4d5ae5;
 }
 
 .modal-label {
@@ -779,7 +782,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
     align-items: center;
 }
 
@@ -800,6 +802,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border-radius: 2px;
     fill: #f4f4fd;
     border: 1px solid #404bbf;
+    border: none;
 }
 
 
@@ -839,4 +842,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .user-accept {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
+}
+
+.privacy {
+    color: #4d5ae5;
 }
