@@ -553,7 +553,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    margin-right: 24px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
@@ -581,12 +580,10 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     border: none;
     min-width: 165px;
     height: 40px;
-    padding: 8px 24px;
     display: flex;
     align-items: center;
     justify-content: center;
     align-content: center;
-    gap: 16px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     min-width: 165px;
 }
@@ -694,7 +691,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 48px;
     margin-bottom: 16px;
 }
 
